@@ -1,0 +1,45 @@
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .item {
+    width: 100px;
+    flex-basis: 100px;
+    height: 100px;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  #one {
+    background-color: #FD644D;
+    flex-basis: 50%;
+    order: -3;
+    flex-grow: 4;
+  }
+  
+  #two {
+    background-color: #4983B2;
+    flex-grow: 1;
+  }
+  
+  #three {
+    background-color: #663797;
+    order: -1;
+    flex-grow: 1;
+  }
+  
+  #four {
+    background-color: #0E7F12;
+    flex-grow: 1;
+  }
+  
+  #five {
+    background-color: #FDA429;
+    flex-basis: 50%;
+    order: -2;
+    flex-grow: 4;
+  }
